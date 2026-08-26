@@ -1,6 +1,6 @@
 class Wyd < Formula
   desc "See what your AI agents and dev tools left running"
-  homepage "https://github.com/oxyplay/wyd"
+  homepage "https://wyd.sh"
   version "0.5.0"
   license "Apache-2.0"
 
