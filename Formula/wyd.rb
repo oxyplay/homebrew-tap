@@ -1,28 +1,28 @@
 class Wyd < Formula
   desc "See what your AI agents and dev tools left running"
   homepage "https://wyd.sh"
-  version "0.7.1"
+  version "0.8.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/oxyplay/wyd/releases/download/v0.7.1/wyd-aarch64-apple-darwin.tar.gz"
-      sha256 "c42353d45dff0b9214b9787bbf88b45651467a025e0ddf5b11f2018f5408d270"
+      url "https://github.com/oxyplay/wyd/releases/download/v0.8.0/wyd-aarch64-apple-darwin.tar.gz"
+      sha256 "d8f371b8ddac0e9792c57a6576f270612e298b288d6681cb8dc3ec0b6cb834e2"
     end
     on_intel do
-      url "https://github.com/oxyplay/wyd/releases/download/v0.7.1/wyd-x86_64-apple-darwin.tar.gz"
-      sha256 "68470d5d492203041e46293a8451e0ed7c28721c57ded92211a79ae34071eefb"
+      url "https://github.com/oxyplay/wyd/releases/download/v0.8.0/wyd-x86_64-apple-darwin.tar.gz"
+      sha256 "1d97bcb3cc037e0a7ad95509294b05067f1f3e7e70ceafccbba1a0fd1fae8292"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/oxyplay/wyd/releases/download/v0.7.1/wyd-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9c3da6bb6b8cc8ccb66e1bbbf43d3f599bee7926c2622b44808fe4c057e16561"
+      url "https://github.com/oxyplay/wyd/releases/download/v0.8.0/wyd-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e79063f5ff8f33b206c5652c075ba555a4382b615b0e51b064f3f914683c6ebf"
     end
     on_intel do
-      url "https://github.com/oxyplay/wyd/releases/download/v0.7.1/wyd-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c30af73de37a403c695a9f6549a273c9347677a2020e213959f39a7d4b3681b1"
+      url "https://github.com/oxyplay/wyd/releases/download/v0.8.0/wyd-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d07972c0a3cc375415acb7f971a9a9dfa2ae9f54b80d683a1e864e92a38d4c7c"
     end
   end
 
